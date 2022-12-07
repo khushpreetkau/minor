@@ -1,0 +1,129 @@
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+     <title>Movie Booking</title>
+</head>
+
+<body>
+     <section class="top-bar">
+          <div class="left-content">
+               <h1 class="title">AK</h1>
+               <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="adventure.html">Movies</a></li>
+                    <li id="abc"><a href="#xyz">Theaters</a></li>
+                    <li><a href="news.html">News</a></li>
+               </ul>
+          </div>
+          <div class="right-content">
+               <img src="filter.png" alt="" class="filter">
+               <img src="cart.png" alt="" class="cart">
+               <img src="help.png" alt="" class="help">
+               <div class="profile-img-box">
+                    <img src="profile1.jpg" alt="">
+               </div>
+               <img src="menu.png" alt="" class="menu">
+          </div>
+     </section>
+
+     <!-- top area end -->
+     <section class="main-container">
+          <div class="sidebar">
+               <form action="#">
+                    <div class="sidebar-groups">
+                         <h3 class="sg-title">Categories</h3>
+                         <br>
+                         <!-- <input type="checkbox" id="adventure" name="adventure" value="adventure"> -->
+                         <label for="adventure"><a href="ad.html">Adventure</a> </label><br>
+                         <br>
+                         <!-- <input type="checkbox" id="action" name="action" value="action"> -->
+                         <label for="action"><a href="action.html">Action</a></label><br>
+                         <br>
+                         <!-- <input type="checkbox" id="animation" name="animation" value="animation"> -->
+                         <label for="animation"><a href="animation.html">Animation</a></label><br>
+                         <br><!-- <input type="checkbox" id="comedy" name="comedy" value="comedy"> -->
+                         <label for="comedy"><a href="comdey.html">Comedy</a></label><br>
+                         <br><!-- <input type="checkbox" id="science" name="science" value="science"> -->
+                         <label for="science"><a href="science.html">Science</a></label><br>
+                         <br><!-- <input type="checkbox" id="thriller" name="thriller" value="thriller"> -->
+                         <label for="thriller"><a href="thriller.html">Thriller</a></label><br>
+                         <br><!-- <input type="checkbox" id="history" name="history" value="history"> -->
+                         <label for="history"><a href="history.html">History</a> </label><br>
+                         <br> <!-- <input type="checkbox" id="fantasy" name="fantasy" value="fantasy"> -->
+                         <label for="fantasy"><a href="adventure.html">Fantasy</a></label><br>
+
+                    </div>
+                    <div class="sidebar-groups">
+                         <h3 class="sg-title">Language</h3>
+                         <br>  <!-- <input type="checkbox" id="english" name="english" value="english"> -->
+                         <label for="english">English</label><br>
+                         <br> <!-- <input type="checkbox" id="hindi" name="hindi" value="hindi"> -->
+                         <label for="hindi">Hindi</label><br>
+                         <br> <!-- <input type="checkbox" id="punjabi" name="punjabi" value="punjabi"> -->
+                         <label for="punjabi">Punjabi</label><br>
+                    </div>
+                    <!-- <div class="sidebar-groups">
+                         <h3 class="sg-title">Time</h3>
+                         <input type="radio" id="morning" name="time" value="morning">
+                         <label for="morning">Morning</label><br>
+                         <input type="radio" id="night" name="time" value="night">
+                         <label for="night">Night</label><br>
+                    </div> -->
+                    <!-- <div class="sidebar-groups">
+                         <a href="#" class="btn-1 btn">Apply Filters</a>
+                    </div> -->
+               </form>
+          </div>
+          <div class="movies-container">
+               <div class="upcoming-img-box">
+                    <img src="upcoming.webp" alt="">
+                    <p class="upcoming-title"><a href="upcoming.html">Upcoming Movie</a></p>
+                    <div class="buttons">
+                         <a href="bookticket.html" class="btn">Book Now</a>
+                         <a href="https://www.youtube.com/embed/a8Gx8wiNbs8" class="btn-alt btn">
+                                  Play Trailer</a>
+                    </div>
+               </div>
+               <div class="current-movies" id="xyz" href="#abc">
+                    <div class="current-movie">
+                         <div class="cm-img-box">
+                              <img src="movie1.jpg" alt="">
+                         </div>
+                         <h3 class="movie-title">Jurassic World</h3>
+                         <p class="screen-name">Screen:Platinum</p>
+                         <div class="booking">
+                              <h2 class="price">15$</h2>
+                              <a href="bookticket.html" class="btn">Buy Tickets</a>
+                         </div>
+                    </div>
+                    <div class="current-movie">
+                         <div class="cm-img-box">
+                              <img src="movie2.jpg" alt="">
+                         </div>
+                         <h3 class="movie-title">Vikram</h3>
+                         <p class="screen-name">Screen:Gold</p>
+                         <div class="booking">
+                              <h2 class="price">10$</h2>
+                              <a href="bookticket.html" class="btn">Buy Tickets</a>
+                         </div>
+                    </div>
+                    <div class="current-movie">
+                         <div class="cm-img-box">
+                              <img src="movie3.jpg" alt="">
+                         </div>
+                         <h3 class="movie-title">Firestarter</h3>
+                         <p class="screen-name">Screen:Silver</p>
+                         <div class="booking">
+                              <h2 class="price">5$</h2>
+                              <a href="bookticket.html" class="btn">Buy Tickets</a>
+                         </div>
+                    </div>
+               </div>
+     </section>
+</body>
+
+</html>
